@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+
+; Afficher les extensions de fichiers
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"HideFileExt"=dword:00000000
+
+; Afficher les fichiers et dossiers cachés
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"Hidden"=dword:00000001
+e
+; Activer les cases à cocher pour sélectionner les fichiers
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"AutoCheckSelect"=dword:00000001
